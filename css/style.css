@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body{
+	 background-image: linear-gradient(to right, #CCD7E2 , #F9F5EE);
+	 font-family: 'Poppins', sans-serif;
+
+}
+.cstm-h1{
+	font-size: 50px!important;
+    font-weight: 700;
+}
+.cstm-pera{
+	margin-bottom: 45px;
+}
+.cstm-pera2{
+	margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #ff000000!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    padding: 10px 30px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-size: 30px;
+    font-weight: 600;
+}
+.cstm-fa{
+	background-color: black;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+.cstm-btn{
+	background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cstm-btn-trans{
+	background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: black;
+}
+.main{
+	margin-top: 50px;
+}
+
+.client-sec{
+	    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.cstm-btn-2{
+	    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    width: 100%;
+}
+.cstm-btn-3{
+	background-color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.frm{
+	background-color: #F5BF08;
+    padding: 65px 45px;
+}
+
+
+
+@media (min-width: 320px) and (max-width:574px){
+
+.cstm-h1 {
+    font-size: 35px!important;
+    font-weight: 700;
+}
+
+.cstm-btn {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.cstm-btn-trans {
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: black;
+    display: block;
+    margin: 0 auto;
+}
+.responsive-img{
+	display: block;
+    margin: 0 auto;
+}
+.responsive-text{
+	text-align: center;
+}
+
+
+
+}
